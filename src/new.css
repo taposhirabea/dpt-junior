@@ -1,0 +1,48 @@
+
+.trip {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.radio-trip  {
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid rgb(17, 17, 147);
+    
+}
+.border-one {
+    border-left: 1px solid rgb(17, 17, 147);
+    border-right: 1px solid rgb(17, 17, 147);
+}
+.radio-trip div {
+    /* border: 1px solid blue; */
+    padding: 4px 25px;
+    font-weight: 600;
+}
+.selected {
+    background-color: rgb(17, 17, 147);
+    color: rgb(231, 229, 226);
+}
+.underline {
+    width: auto;
+    height: 1px;
+    background: rgb(17, 17, 147);
+}
+.chart {
+    display: flex;
+    gap: 7px;
+}
+.airport {
+    border: 1px solid red;
+    padding: 10px 90px 10px 5px;
+    text-align: start;
+}
+
+.first-border {
+    border: none;
+
+}
+.second-border {
+    border-bottom: 1px solid rgb(206, 75, 75);
+}

@@ -1,5 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
+  /* padding: 5rem; */
+  /* background: #a09798; */
 }
 
 .App-logo {
@@ -35,4 +40,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+.flight {
+
+  background-color: rgb(252, 251, 252);
+  justify-content: center;
+  max-width: 1140px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid #61dafb;
+}
+.flight-type-wrapper{
+  text-align: start;
+  padding: 10px 0;
+}
+.flight-search{
+
+display: flex;
+  text-align: start;
+  gap: 10px;
+}
+.box {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 1px solid #dbdde0;
+  cursor: pointer;
+  width: 100%;
+}
+.value {
+  font-size: 1.2857142857rem;
+    line-height: 24px;
+    font-weight: 700;
+    color: #1c3c6b;
+}
+.search {
+  border: 0;
+    color: #f2e7e7; 
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+}
+tbody {
+  padding: 2rem 0 !important;
+}
+
+.td {
+  padding: 0 ;
+  max-width: 68px;
 }
