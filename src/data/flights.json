@@ -7,11 +7,11 @@
                   {
                      "departure":{
                         "iataCode":"DAC",
-                        "at":"1-22-2024"
+                        "at":"2022-11-22T23:30:00"
                      },
                      "arrival":{
                         "iataCode":"IST",
-                        "at":"1-22-2024"
+                        "at":"2022-11-23T05:40:00"
                      },
                      "marketingCarrier":"TK",
                      "carrierCode":"TK",
@@ -21,11 +21,11 @@
                   {
                      "departure":{
                         "iataCode":"IST",
-                        "at":"1-22-2024"
+                        "at":"2022-11-23T12:55:00"
                      },
                      "arrival":{
                         "iataCode":"FCO",
-                        "at":"1-22-2024"
+                        "at":"2022-11-23T13:30:00"
                      },
                      "marketingCarrier":"TK",
                      "carrierCode":"TK",
